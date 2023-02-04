@@ -29,5 +29,7 @@ print_input('Computer Vision School')
 
 type(print_input(2))
 
+print()
+
 
 
