@@ -57,6 +57,61 @@ NUMBER_OF_STUDENTS = 30.0
 
 #Cast (Type Conversion!)
 
+str_sample_one = '19'
+
+#sum_str = str_sample_one + 12
+#print(sum_str)
+
+##cast str to int - one
+str_one_to_int = int(str_sample_one)
+soti_type = type(str_one_to_int)
+print('type of ' + str(str_one_to_int) + ' is: ' + str(soti_type))
+
+sum_str = str_one_to_int + 12
+print(sum_str)
+
+
+##cast str to int - two
+str_sample_two = 'Filoger'
+#str_to_int_two =  int(str_sample_two)
+
+##int to float
+
+int_sample = 17
+int_to_float = float(int_sample)
+
+print(int_to_float)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
