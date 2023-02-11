@@ -82,8 +82,13 @@ int_to_float = float(int_sample)
 
 print(int_to_float)
 
+##float to int
+float_sample = 451.30
+float_to_int = int(float_sample)
+print(float_to_int)
 
 
+##
 
 
 
