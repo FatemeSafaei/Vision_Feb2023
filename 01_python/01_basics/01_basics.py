@@ -33,6 +33,25 @@ var_one = 17 #--> Type?
 
 print(type(var_one))
 
+var_two = 17.50
+print(type(var_two))
+
+#Cast
+int_sample = 12
+print(float(int_sample))
+
+
+string_sample = 'Filoger'
+#print(int(string_sample))
+
+float_sample = 17.25
+print(int(float_sample))
+
+
+
+
+
+
 
 
 
