@@ -21,6 +21,57 @@ if (a==True) and (b==False) \
         print('BackSlash')
 
 
+#identifiers
+variable = 45
+_variable = 'Vision'
+
+#1variable = 23.0
+#Var1 != var1
+
+#Objects
+var_one = 17 #--> Type?
+
+print(type(var_one))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
