@@ -145,7 +145,15 @@ print(type(age))
 age_2 = float(age) + 15
 print(age_2) 
 
+###
+r = 20
+p = 20
+print(id(r))
+print(id(p))
 
+p = p + 1
+
+print(id(p))
 
 
 
