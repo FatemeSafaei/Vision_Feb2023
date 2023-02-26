@@ -47,12 +47,52 @@ multiplication(1, 2)
 
 
 #lambda!
-multiply = lambda a, b, c : a * b * c
-print(multiply(3, 4, 5))
+multiply = lambda a, b, c=2 : a * b * c
+print(multiply(3, 4))
 
 
+def func_one():
+    return 2
+
+def func_two(func):
+    return func * 2
+
+
+a = func_two(func_one())
+print(a)
     
     
+#String
+#str.format!
+
+name = 'John'
+s_1 = f'Hello, {name}'
+print(s_1)
+
+s_2 = f'Hello, {name.upper()}'
+print(s_2)
+
+num = 200
+s_3 = f'{num:06}'
+print(s_3)
+
+
+num_2 = 9.98564
+s_4 = f'{num_2: 0.2f}'
+print(s_4)
+
+
+num_3 = 80000000000000000000
+s_5 = f'{num_3 : ,}'
+print(s_5)
+
+num_4 = 0.89654587
+s_6 = f'{num_4: 0.2%}'
+print(s_6)
+
+
+
+
 
 
 
