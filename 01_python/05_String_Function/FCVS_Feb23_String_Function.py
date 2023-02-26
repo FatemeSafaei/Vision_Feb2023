@@ -73,7 +73,7 @@ s_2 = f'Hello, {name.upper()}'
 print(s_2)
 
 num = 200
-s_3 = f'{num:06}'
+s_3 = f'{num: 06}'
 print(s_3)
 
 
@@ -92,9 +92,19 @@ print(s_6)
 
 
 
+#Backslash
+print('Hello,\n Adam')
 
 
+print('Hello,\t Adam')
 
+print(len('\\n'))
+
+txt = '"python\'s awesome"she said'
+print(txt)
+
+txt_2 = "we are \"IRANIAN!\" "
+print(txt_2)
 
 
 
