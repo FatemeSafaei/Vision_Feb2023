@@ -40,7 +40,18 @@ print(out)
 # utils!
 ## calculate_area!
     
+def multiplication(a, b, c=2):
+    return a * b * c
 
+multiplication(1, 2)
+
+
+#lambda!
+multiply = lambda a, b, c : a * b * c
+print(multiply(3, 4, 5))
+
+
+    
     
 
 
