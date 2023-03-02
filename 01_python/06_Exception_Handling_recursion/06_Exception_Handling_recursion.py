@@ -76,7 +76,44 @@ finally:
     
 
 
+#Recursion!
 
+#multiply a and b, using iteration!
+
+def multiply(a, b):
+    result = 0
+    for i in range(b):
+        result += a
+    return result
+
+print(multiply(3, 12))
+
+
+def mult(a, b):
+    if b == 1:
+        return a 
+    else:
+        print(a + mult(a, b-1))
+        return a + mult(a, b-1)
+ 
+mult(3, 12)
+
+
+def fact_iter(n):
+    j = 1
+    for i in range(1, n+1):
+        j *= i
+    return j
+
+print(fact_iter(5))
+
+def fact_recur(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fact_recur(n-1)
+        
+print(fact_recur(5))
 
     
 
