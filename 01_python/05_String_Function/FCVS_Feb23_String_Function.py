@@ -106,8 +106,18 @@ print(txt)
 txt_2 = "we are \"IRANIAN!\" "
 print(txt_2)
 
+PATH = 'lang\tv\nPython\t3'
+print(PATH)
 
 
+PATH_2 = 'lang\\tv\\nPython\\t3'
+print(PATH_2)
+
+PATH_3 = r'lang\tv\nPython\t3'
+print(PATH_3)
+
+
+print(PATH_2 == PATH_3)
 
 
 
