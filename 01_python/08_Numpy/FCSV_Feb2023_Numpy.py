@@ -144,6 +144,51 @@ print(h)
 print(v)
 print(d)
 
+# Sum 
+a = np.array([
+    [1, 2, 3], 
+    [4, 5, 6]
+    ])
+
+sum_a = np.sum(a)
+print(sum_a)
+
+
+#mean
+mean_a = np.mean(a)
+print(mean_a)
+
+
+g_dist = np.array([100, 154, 81, 94, 32])
+
+#std
+g_dist_std = np.std(g_dist)
+print(g_dist_std)
+
+#var
+g_dist_var = np.var(g_dist)
+print(g_dist_var)
+
+#min
+g_dist_min = np.amin(g_dist)
+print(g_dist_min)
+
+#max
+g_dist_max = np.amax(g_dist)
+print(g_dist_max)
+
+#sort
+g_dist_sorted = np.sort(g_dist)
+print(g_dist_sorted)
+
+#reshape
+d = np.arange(1, 5)
+print(d)
+
+dd = np.reshape(d, (2, 2))
+print(dd)
+
+
 
 
 
