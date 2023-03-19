@@ -72,8 +72,12 @@ plt.axis('off')
 img_two_cv = cv2.imread(r'images/colors.png')
 img_two_cv_gray = cv2.cvtColor(img_two_cv, cv2.COLOR_RGB2GRAY)
 img_two_cv_gray_bgr = cv2.cvtColor(img_two_cv, cv2.COLOR_BGR2GRAY)
+cv2.imwrite('gray.png', img_two_cv_gray)
+
+
 
 cv2.imshow('img_two_cv_gray', img_two_cv_gray)
+
 cv2.waitKey(0)
 
 
